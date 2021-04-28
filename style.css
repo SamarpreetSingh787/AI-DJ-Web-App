@@ -1,0 +1,83 @@
+.heading
+{
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
+}
+.note
+{
+  font-size: 15px;
+  color: black;
+}
+body
+{
+  background-size: cover;	
+}
+  .speed_div
+  {
+  	float: left;
+  }
+  .speed_div_img
+  {
+  	width: 200px; 
+  	border-radius: 100px;
+  }
+  #speed
+  {
+  	font-size: 23px;
+  	margin: 15px;
+  }
+  .volume_div
+  {
+  	float: right;	
+  }
+  .volume_div_img
+  {
+  	width: 200px; 
+  	border-radius: 100px;
+  }
+  #volume
+  {
+  	font-size: 23px;
+  	margin: 15px;
+  }
+   .play_button
+  {
+  	width: 130px;
+  	font-size: 25px;
+  }
+    canvas 
+  {
+    border:5px solid black;
+    border-radius:20px;
+    animation-name: egs;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+  }
+
+  .play_button:hover {
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .heading:hover {
+    background-color: cyan;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  #song_ipt {
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+  }
+
+  @keyframes egs {
+    from {box-shadow: 1px 1px 38px silver;}
+    to {box-shadow: 1px 1px 38px yellow;}
+  }
